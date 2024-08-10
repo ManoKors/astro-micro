@@ -1,0 +1,27 @@
+---
+title: "Which OS for Raspberry Pi 5 Server?"
+description: "Features, enhancements, and changes."
+date: "2024-08-10"
+---
+
+import Callout from "@/components/Callout.astro";
+
+---
+
+## 1. Setup for the project
+
+- Raspberry Pi 5 (8GB)
+- 1 tb ssd from sandisc
+- Original cable for power suply
+- USB-C to USB-A for connection between Raspberry Pi and external SSD
+- 64GB micro SD-Card
+
+- iMac
+
+## 2. Choosing the OS
+Recommended OS: Raspberry Pi OS (64-bit) is the best choice as it’s optimized for the Raspberry Pi hardware. 
+It has a large community, so finding support is easy. 
+
+Alternatively, you can use Ubuntu Server (64-bit), which is more server-focused and provides a good balance between performance and flexibility.
+
+##

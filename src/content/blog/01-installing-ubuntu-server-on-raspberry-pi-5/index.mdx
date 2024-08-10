@@ -1,5 +1,5 @@
 ---
-title: "Everything new in Astro Micro"
+title: "Raspberry Pi as a Server"
 description: "Features, enhancements, and changes."
 date: "2024-08-10"
 ---
@@ -11,15 +11,41 @@ import Callout from "@/components/Callout.astro";
 ## 1. Setup for the project
 
 - Raspberry Pi 5 (8GB)
-- 1 tb ssd from sandisc
-- Original cable for power suply
+- 1TB SSD from SanDisk
+- Original cable for power supply
 - USB-C to USB-A for connection between Raspberry Pi and external SSD
-- 64GB micro SD-Card
-
+- 64GB microSD Card
 - iMac
 
 ## 2. Choosing the OS
-Recommended OS: Raspberry Pi OS (64-bit) is the best choice as it’s optimized for the Raspberry Pi hardware. 
-It has a large community, so finding support is easy. 
 
-Alternatively, you can use Ubuntu Server (64-bit), which is more server-focused and provides a good balance between performance and flexibility.
+Recommended OS: **Raspberry Pi OS (64-bit)** is the best choice as it’s optimized for the Raspberry Pi hardware. It has a large community, so finding support is easy.
+
+Alternatively, you can use **Ubuntu Server (64-bit)**, which is more server-focused and provides a good balance between performance and flexibility.
+
+## 2.1. Benefits and Downsides to Consider
+
+### Benefits of Installing OS on SSD
+
+- **Performance**: SSDs offer significantly faster read/write speeds compared to microSD cards, leading to faster boot times and better overall performance.
+- **Reliability**: SSDs are more durable and have a longer lifespan than microSD cards, which can degrade over time with frequent read/write cycles.
+- **Simplified Setup**: Running everything from the SSD means you don’t need to manage separate storage locations, reducing complexity.
+
+### Downsides of Installing OS on SSD
+
+- **Power Consumption**: SSDs consume more power than microSD cards, though this is typically not an issue with the official power supply.
+- **USB Connection Stability**: While rare, there can be occasional issues with booting from an external SSD due to USB connection stability.
+
+### Benefits of Installing OS on microSD Card
+
+- **Portability**: Easier to swap out for different OS setups or for experimentation without affecting your main data stored on the SSD.
+- **Backup & Recovery**: Easier to recover the OS if the microSD card fails, as the SSD remains untouched and dedicated to data storage.
+
+### Downsides of Installing OS on microSD Card
+
+- **Performance**: Slower read/write speeds compared to SSDs can affect system performance, particularly under heavy workloads.
+- **Reliability**: microSD cards are more prone to wear and failure, especially with intensive read/write operations.
+
+<Callout type="info">
+**Recommendation**: For a balance of performance, reliability, and simplicity, it is advisable to install the OS directly on the SSD. This setup will leverage the speed of the SSD and ensure the system remains robust for long-term use.
+</Callout>
