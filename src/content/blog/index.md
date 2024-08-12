@@ -9,6 +9,7 @@ The first thing we want to do after installing with each Ubuntu Server is to che
 The updates often include security patches which are very important for the security of the new system.
 
 
+## Check Ubuntu Server Version
 
 To check your Version of Ubuntu Server type
 
@@ -32,3 +33,6 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
 ```
+
+## Update Ubuntu Server
+In order to start updating a Ubuntu (or Debian) system is to update the `Package Repository Index`.
