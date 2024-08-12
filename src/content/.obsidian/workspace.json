@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "622b464b2a26e91e",
+    "type": "split",
+    "children": [
+      {
+        "id": "490bca3314e6b941",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31bbede82f91fafa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/03-projects-collection/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "705e6dceff1ef65a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d666c77959461403",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88bffc3ee643cd96",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "69f60f12fc0bf244",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0189686f51de3605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b6f22d319a16872d",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa22459fdde32eaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9bcae16bbc552e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "blog/03-projects-collection/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "841b954ae5f478e3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "blog/03-projects-collection/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e3c984a1adfc6da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b214db5eb812fcaf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blog/03-projects-collection/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false
+    }
+  },
+  "active": "31bbede82f91fafa",
+  "lastOpenFiles": [
+    "blog/getting-started/index.md",
+    "ubuntu-virtual-machine-setup/index.md",
+    "blog/07-draft-example/index.md",
+    "blog/03-projects-collection/index.md",
+    "ubuntu-virtual-machine-setup"
+  ]
+}
