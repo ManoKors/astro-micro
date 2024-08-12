@@ -35,4 +35,25 @@ LOGO=ubuntu-logo
 ```
 
 ## Update Ubuntu Server
-In order to start updating a Ubuntu (or Debian) system is to update the `Package Repository Index`.
+In order to start updating a Ubuntu (or Debian) system is to update the `Package Repository Index`. The command to update is 
+
+```sh
+sudo apt update
+```
+`sudo` is necessary if you are not logged in as root. The terminal asks for your password and gives you a list like this:
+
+```sh
+Hit:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease
+Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+Hit:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease
+Hit:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease
+Get:5 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [339 kB]
+Get:6 http://ports.ubuntu.com/ubuntu-ports noble-updates/main Translation-en [86.9 kB]
+Get:7 http://ports.ubuntu.com/ubuntu-ports noble-updates/restricted arm64 Packages [246 kB]
+Get:8 http://ports.ubuntu.com/ubuntu-ports noble-updates/restricted Translation-en [47.8 kB]
+Fetched 846 kB in 1s (838 kB/s)
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+46 packages can be upgraded. Run 'apt list --upgradable' to see them.
+```
