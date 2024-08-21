@@ -9,7 +9,7 @@ The first thing we want to do after installing with each Ubuntu Server is to che
 The updates often include security patches which are very important for the security of the new system.
 
 
-## Check Ubuntu Server Version
+## 1. Check Ubuntu Server Version
 
 To check your Version of Ubuntu Server type
 
@@ -34,7 +34,7 @@ UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
 ```
 
-## Update Ubuntu Server
+## 2. Check for Updated
 In order to start updating a Ubuntu (or Debian) system is to update the `Package Repository Index`. The command to update is 
 
 ```sh
@@ -57,3 +57,54 @@ Building dependency tree... Done
 Reading state information... Done
 46 packages can be upgraded. Run 'apt list --upgradable' to see them.
 ```
+
+This synchronized with the server to see which update packages are available for installation. At the bottom it tells me that `46 packages can be upgraded`. 
+
+## 3. Install the updates
+
+```sh
+sudo apt dist-upgrade
+```
+This returns:
+
+```sh
+mano@pi:~$  sudo apt dist-upgrade
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following packages will be upgraded:
+  apparmor apport apport-core-dump-handler cloud-init dhcpcd-base
+  dracut-install flash-kernel initramfs-tools initramfs-tools-bin
+  initramfs-tools-core landscape-common libapparmor1 libnss-systemd
+  libopeniscsiusr libpam-modules libpam-modules-bin libpam-runtime
+  libpam-systemd libpam0g libsystemd-shared libsystemd0 libudev1
+  linux-firmware lxd-installer needrestart open-iscsi python3-apport
+  python3-distupgrade python3-problem-report systemd systemd-dev
+  systemd-resolved systemd-sysv systemd-timesyncd thin-provisioning-tools
+  tzdata ubuntu-pro-client ubuntu-pro-client-l10n ubuntu-release-upgrader-core
+  udev vim vim-common vim-runtime vim-tiny xkb-data xxd
+46 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 500 MB of archives.
+After this operation, 1142 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+```
+
+Ubuntu is offering me now to upgrade 46 packages. I enter `Y` to continue.
+
+
+after this you should reboot
+
+```sh
+sudo reboot
+```
+
+```sh
+hostname -I
+```
+
+
+ssh-copy-id -i ~/.ssh/id_rsa.pub mano@192.168.178.104
+
+
+ssh 'mano@192.168.178.104'

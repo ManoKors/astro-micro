@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/03-projects-collection/index.md",
+                "file": "blog/02-blog-collection/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/03-projects-collection/index.md",
+                "file": "blog/02-blog-collection/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/03-projects-collection/index.md",
+                "file": "blog/02-blog-collection/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/03-projects-collection/index.md"
+                "file": "blog/02-blog-collection/index.md"
               }
             }
           }
@@ -146,14 +146,22 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "31bbede82f91fafa",
+  "active": "88bffc3ee643cd96",
   "lastOpenFiles": [
+    "java-PDFBox-hinzufügen",
+    "blog/Unbenannt.md",
+    "java-adding-",
+    "blog/docker-how-to-check-pulled-images/index.md",
+    "blog/docker-access-local-files/Unbenannt.md",
+    "blog/docker-access-local-files",
+    "blog/03-projects-collection/index.md",
+    "blog/04-markdown-syntax/x-wing.jpeg",
+    "blog/getting-started/index.md",
+    "getting-started-with-raspberry-pi-5/index.md",
+    "blog/docker-how-to-check-pulled-images",
     "blog/first-things-to-do-after-installing-ubuntu-server-on-raspberry-pi-5",
     "blog/index.md",
-    "blog/getting-started/index.md",
-    "ubuntu-virtual-machine-setup/index.md",
     "blog/07-draft-example/index.md",
-    "blog/03-projects-collection/index.md",
-    "ubuntu-virtual-machine-setup"
+    "getting-started-with-raspberry-pi-5"
   ]
 }
