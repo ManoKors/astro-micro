@@ -1,0 +1,32 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/Container.astro";
+import ArrowCard from "@components/ArrowCard.astro";
+import { JAVA } from "@consts";
+
+const javaprojects = (await getCollection("java"))
+  .filter((javaproject) => !javaproject.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Layout title={JAVA.TITLE} description={JAVA.DESCRIPTION}>
+  <Container>
+    <aside data-pagefind-ignore>
+      <div class="space-y-10">
+        <div class="animate font-semibold text-black dark:text-white">
+          Java-Projects
+        </div>
+        <ul class="animate not-prose flex flex-col gap-4">
+          {
+            javaprojects.map((javaproject) => (
+              <li>
+                <ArrowCard entry={javaproject} />
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </aside>
+  </Container>
+</Layout>
