@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects" | CollectionEntry<"javaprojects">;
+  entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"javaprojects">;
 };
 
 const { entry } = Astro.props as {
